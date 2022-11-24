@@ -1,0 +1,106 @@
+ #hero {
+    height: 800px;
+    background-image: url("/img/places/travel_pic2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; */
+}
+
+#hero-content {
+    width: 800px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: darkgoldenrod;
+    margin: 0;
+    text-transform: lowercase;
+
+}
+
+#hero-content p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: darkgoldenrod;
+}
+
+#hero-content a {
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+}
+
+#hero-content a:focus,
+#hero-content a:active,
+#hero-content a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#destination {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+
+    width: 100%;
+    /* margin: auto; */
+    margin-bottom: 40px;
+    
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+#highlight {
+    padding: 24px;
+    background: linear-gradient(90deg, rgb(255, 228, 196), rgb(230, 230, 230));
+}
+
+#highlight h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+    margin: 20px 0;
+}
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination strong {
+    color: darkorange;
+}
+
+
